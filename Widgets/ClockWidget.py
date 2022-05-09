@@ -34,7 +34,12 @@ class ClockWidget(BaseWidget):
         self.clock_label.pack()
 
     def draw_digital(self):
-        pass
+        self.clock_label.config(text=f"{self.hour:02}:{self.minute:02}:{self.seconds:02}")
+        # make text white
+        self.clock_label.config(fg=self.get_fg())
+        # set font
+        self.clock_label.config(font=self.get_font("huge"))
+        self.clock_label.pack()
 
     def update_dimensions(self):
         if self.type == "analog":
