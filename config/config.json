@@ -1,7 +1,7 @@
 {
   "window_config": {
-    "pixel_size": ["1720px", "720px"],
-    "physical_size": ["34.4in", "14.4in"]
+    "pixel_size": ["1080px", "1920px"],
+    "physical_size": ["11.64375in", "20.7in"]
   },
 
   "colors": {

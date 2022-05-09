@@ -51,7 +51,7 @@ class LayoutManager:
         """Sets the default settings for the tkinter window"""
         self.window.title = "MirrorGUI"
         self.window.config(background=self.colors["background_color"])
-        # self.window.geometry(f"{self.conversion.to_px(self.pixel_size[0])}x{self.conversion.to_px(self.pixel_size[1])}")
+        self.window.geometry(f"{self.conversion.to_px(self.pixel_size[0])}x{self.conversion.to_px(self.pixel_size[1])}")
         self.window.attributes("-fullscreen", True)
         self.window.resizable(0, 0)
 
