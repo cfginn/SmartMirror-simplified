@@ -32,10 +32,15 @@
       "props": { "id": "1", "update time": 1000, "clock type": "digital" },
       "constraints": [
         "1.left=1in",
-        "1.width=3in",
+        "1.width=2in",
         "1.top=1in",
         "1.height=1.width"
       ]
+    },
+    {
+      "name": "WeatherWidget",
+      "props": {"id":"2", "update time":10000, "temperature units": "fahrenheit", "rounding": 1, "zip code": 75056},
+      "constraints": ["2.left=8.64375in", "2.width=1.width", "2.top=1in", "2.height=1.5*1.height"]
     }
   ]
 }
